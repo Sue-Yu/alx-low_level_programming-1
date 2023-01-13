@@ -12,7 +12,7 @@
 void *malloc_checked(unsigned int b)
 {
 	void *new_mem;
-i
+
 	new_mem = malloc(b);
 	if (new_mem == NULL)
 		exit(98);
