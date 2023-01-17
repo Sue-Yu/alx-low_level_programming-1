@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 /**
  * main - prints the file name it was compiled from
  *
@@ -6,6 +7,6 @@
  */
 int main(void)
 {
-	printf("The File name is:%s\n", __FILE__);
-	Return(0);
+	printf("%s\n", __FILE__);
+	return (0);
 }
